@@ -1,0 +1,38 @@
+.Sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Sidebar-links {
+    margin-bottom: 2em;
+    opacity: 0.4;
+    transition: all .2s ease-in-out;
+    padding: .25em;
+    cursor: pointer; 
+}
+
+.Sidebar-links:hover {
+    opacity: 1;
+    transform: scale(1.1) translateY(-4px);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+}
+
+.lastlink {
+    margin-bottom: 95px; 
+}
+
+.Sidebar-line {
+    content: "";
+    height: 4em;
+    width: 5px;
+    background: #5393fe;
+    position: absolute;
+    left: 13px;
+    bottom: 0;
+}

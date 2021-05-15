@@ -1,0 +1,211 @@
+.Home {
+    margin-top: 10px;
+    padding: 0px 80px;
+}
+
+.Home h1 {
+    font-family: 'Neuton', serif;
+    font-size: 85px;
+    font-weight: 400;
+    text-align: center;
+    margin: 50px 0px 60px;
+    letter-spacing: 5px;
+    line-height: 90px;
+    display: inline-block;
+    transition: all .1s ease-in-out;
+}
+
+.Home h1:hover {
+    color: white;
+}
+
+.Home h3 {
+    text-align: left;
+    font-family: 'Neuton', serif;
+}
+
+.Home h2 {
+    font-family: 'Chicle', cursive;
+    font-size: 90px;
+    letter-spacing: 10px;
+    margin: 0;
+    padding: 0;
+    line-height: 115px;
+}
+
+.Home h2 a {
+    color: #001C3D;
+    text-decoration: none;
+}
+
+
+.Home h3 {
+    font-weight: 700;
+}
+
+.Home h4 {
+    font-family: 'Viaoda Libre', cursive;
+    font-size: 70px;
+    line-height: 105px;
+    margin: 30px 60px;
+    /* letter-spacing: 0.5px; */
+    padding: 0;
+}
+
+.Home-smileys {
+    display: none;
+}
+
+.Home-smiley-icon {
+    margin: 0 20px;
+}
+
+.Home-stack {
+    font-size: 60px;
+    max-width: 650px;
+    margin: 60px auto 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.Home-stack-icon {
+    margin: 30px 50px;
+    transition: all .1s ease-in-out;
+}
+
+.Home-stack-icon:hover {
+    opacity: 0.4;
+}
+
+.rails {
+    color: #C60402;
+    font-size: 84px;
+    position: relative;
+    top: -17px;
+    margin-right: 35px;
+}
+
+.javascript {
+    color: #EFD919;
+}
+
+.react {
+    color: #05D1F6;
+}
+
+.node {
+    color: #71A761;
+    font-size: 71px;
+    position: relative;
+    top: -4px;
+}
+
+@media (max-width: 780px) {
+    .Home {
+        margin-top: 120px;
+        padding: 0px 60px;
+    }
+    .Home h1 {
+        display: none;
+    }
+    .Home h2 {
+        font-size: 36px;
+        letter-spacing: 1px;
+        line-height: 46px;
+    }
+    .Home h4 {
+        font-size: 31px;
+        letter-spacing: 1px;
+        line-height: 43px;
+        margin: 10px 5px 50px;
+    }
+    .Home-smileys {
+        font-size: 32px;
+        /* max-width: 600px; */
+        margin: 5px auto 43px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .Home-stack {
+        font-size: 36px;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .Home-stack-icon {
+        margin: 0 10px;
+    }
+
+    .rails {
+        color: #C60402;
+        font-size: 55px;
+        position: relative;
+        top: -10px;
+        margin-right: 7px;
+    }
+
+    .node {
+        font-size: 60px;
+    }
+
+    /* .stack-icon-rails {
+        font-size: 64px;
+        position: relative;
+        top: -5px;
+    } */
+
+}
+
+
+
+
+/* iPhone 2,3,4 */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  
+}
+/* iPhone 5 */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+  
+}
+/* iPhone 6,7,8 */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+}
+/* iPhone PLUS 6,7,8 */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 736px) {
+  
+}
+/* iPhone X */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3), (min-resolution: 3dppx) {
+  
+}
+/* iPad Mini */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)
+and (-webkit-min-device-pixel-ratio: 1), (min-resolution: 1dppx)  {
+  
+}
+/* iPad 1,2 */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+  
+}
+/* iPad 3,4 Retina, Samsung Galaxy S7+ */
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx)  {
+}

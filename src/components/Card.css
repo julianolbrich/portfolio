@@ -1,0 +1,31 @@
+.Card {
+    /* height: 300px;   */
+    width: 80vw;
+    /* border: 1px solid black; */
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.Card-info {
+    /* position: absolute; */
+    right: 10vw;
+    height: auto; 
+    width: 20vw;
+    background: #5393fe;
+    opacity: 0.8;
+    padding: 10px;
+    text-align: left;
+}
+
+.Card-info h4 {
+    font-size: 30px;
+}
+
+.Card-image {
+    margin: auto;
+}
+
+.Card-image img {
+    width: 60vw;
+}

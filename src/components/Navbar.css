@@ -1,0 +1,56 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background: rgba(250,250,250,0.8);
+    box-shadow: none;
+}
+
+.Navbar-logo {
+    padding: 20px 30px;
+    font-size: 36px;
+    color: black;
+    font-family: 'Faster One', cursive;
+    margin: 10px;
+}
+
+
+.Navbar-logo h2 {
+    font-family: 'Viaoda Libre', cursive;
+}
+
+.Navbar-links {
+    display: flex;
+    margin: 10px 40px;
+}
+
+.Navbar-links a {
+    color: #5393fe;
+    font-size: 1.1rem;
+    text-decoration: underline;
+    transition: all .07s ease-in-out;
+    font-weight: 500;
+}
+
+.Navbar-links a:hover {
+    font-weight: 700;
+    text-decoration: none;
+    transform: scale(1.1);
+}
+
+.Navbar-link {
+    padding: 0px 30px;
+    margin: auto;
+}
+
+@media (max-width: 650px) {
+    .Navbar {
+        flex-direction: column;
+    }
+
+    .Navbar-links a {
+        font-size: 20px;
+        opacity: 0.8;
+        letter-spacing: 2px;;
+    }
+}
