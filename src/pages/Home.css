@@ -19,11 +19,6 @@
     color: white;
 }
 
-.Home h3 {
-    text-align: left;
-    font-family: 'Neuton', serif;
-}
-
 .Home h2 {
     font-family: 'Chicle', cursive;
     font-size: 90px;
@@ -36,12 +31,22 @@
 .Home h2 a {
     color: #001C3D;
     text-decoration: none;
+    transition: all .1.5s ease-in-out;
 }
 
+.Home h2 a:hover {
+    color: #EF4C21;
+    transition: all .0.9s ease-in-out;
+}
 
-.Home h3 {
+/* .Home h3 {
     font-weight: 700;
-}
+} */
+
+/* .Home h3 {
+    text-align: left;
+    font-family: 'Neuton', serif;
+} */
 
 .Home h4 {
     font-family: 'Viaoda Libre', cursive;
@@ -72,12 +77,42 @@
     margin: 30px 50px;
     transition: all .1s ease-in-out;
 }
-
+/* 
 .Home-stack-icon:hover {
     opacity: 0.4;
-}
+} */
 
 .rails {
+    color: black;
+    transition: all .1s ease-in-out;
+}
+
+.javascript {
+    color: black;
+    transition: all .1s ease-in-out;
+}
+
+.react {
+    color: black;
+    transition: all .1s ease-in-out;
+}
+
+.rails:hover {
+    color: #C60402;
+    transition: all .1s ease-in-out;
+}
+
+.javascript:hover {
+    color: #EFD919;
+    transition: all .1s ease-in-out;
+}
+
+.react:hover {
+    color: #05D1F6;
+    transition: all .1s ease-in-out;
+}
+
+.rails-icon {
     color: #C60402;
     font-size: 84px;
     position: relative;
@@ -85,24 +120,29 @@
     margin-right: 35px;
 }
 
-.javascript {
+.javascript-icon {
     color: #EFD919;
 }
 
-.react {
+.react-icon {
     color: #05D1F6;
 }
 
-.node {
+.node-icon {
     color: #71A761;
     font-size: 71px;
     position: relative;
     top: -4px;
 }
 
+.fullstack {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
+
 @media (max-width: 780px) {
     .Home {
-        margin-top: 120px;
+        margin-top: 140px;
         padding: 0px 60px;
     }
     .Home h1 {
@@ -132,20 +172,32 @@
         display: flex;
         justify-content: space-around;
     }
+
+    .rails {
+        color: #C60402;
+    }
+    
+    .javascript {
+        color: #EFD919;
+    }
+    
+    .react {
+        color: #05D1F6;
+    }
     
     .Home-stack-icon {
         margin: 0 10px;
     }
 
-    .rails {
-        color: #C60402;
+    .rails-icon {
         font-size: 55px;
         position: relative;
         top: -10px;
         margin-right: 7px;
     }
-
-    .node {
+    
+    .node-icon {
+        color: #71A761;
         font-size: 60px;
     }
 

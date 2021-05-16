@@ -6,7 +6,7 @@ import { FaJs } from "react-icons/fa";
 import { FaNode } from "react-icons/fa";
 import { SiRails } from "react-icons/si";
 
-import Accordion from '../components/Accordion';
+// import Accordion from '../components/Accordion';
 import Card from '../components/Card';
 
 
@@ -25,14 +25,14 @@ const Home = () => {
                 <div className="Home-smiley-icon"> 👨‍💼 </div>
                 <div className="Home-smiley-icon"> &#x1F9B8; </div>
             </div>
-            <h4> Since 2020 I evolved into becoming a <em>Full-Stack </em> Software Developer with 
-                <em> <span style={{color: "#C60402"}}>Ruby on Rails</span>, <span style={{color: "#EFD919"}}>JavaScript</span> </em> & <em> <span style={{color: "#05D1F6"}}>React.js</span> </em> 
+            <h4> Since 2020 I evolved into becoming a <span className="fullstack"> <em>Full-Stack </em> Software Developer </span> with 
+                <em> <span className="rails">Ruby on Rails</span>, <span className="javascript">JavaScript</span> </em> & <em> <span className="react">React.js</span> </em> 
             </h4>
             <div className="Home-stack">
-                <div className="Home-stack-icon rails"> <SiRails /> </div>
-                <div className="Home-stack-icon node"> <FaNode /> </div>
-                <div className="Home-stack-icon javascript"> <FaJs /> </div>
-                <div className="Home-stack-icon react"> <FaReact /> </div>
+                <div className="Home-stack-icon rails-icon"> <SiRails /> </div>
+                <div className="Home-stack-icon node-icon"> <FaNode /> </div>
+                <div className="Home-stack-icon javascript-icon"> <FaJs /> </div>
+                <div className="Home-stack-icon react-icon"> <FaReact /> </div>
             </div>
             
 
@@ -50,7 +50,7 @@ const Home = () => {
 
             <br /><br /><br /><br />
             <h2> CONTACT ME </h2>
-
+            <br /><br /><br /><br />
 
         </div>
     );

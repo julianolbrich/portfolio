@@ -27,5 +27,66 @@
 }
 
 .Card-image img {
-    width: 60vw;
+    width: 68vw;
+}
+
+.Card-2 {
+    width: 90vw;
+    height: 600px;
+    display: flex;
+    border: 1px solid black;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    overflow: scroll;
+    margin-bottom: 50px;
+}
+
+.Card-2-text {
+    text-align: left;
+    width: 25vw;
+    /* height: 300px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    overflow: scroll;
+}
+
+.Card-2-title {
+    font-size: 36px;
+    font-family: 'Faster One', cursive;
+    margin-bottom: 20px;;
+}
+.Card-2-shorttext {
+    line-height: 25px;
+}
+
+.Card-2-techstack {
+    margin-top: 30px;
+    font-size: 14px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.Card-2-stacks {
+    display: flex;
+    flex-direction: column;
+}
+
+.Card-2-stack {
+    border-radius: 50px;
+    border: 1px solid lightblue;
+    padding: 8px 11px;
+    margin: 7px 10px 7px 0px;
+    text-align: center;
+}
+
+.Card-2-stacklist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Card-2-image {
+    width: 62vw;
+    /* height: 352px; */
+    background-size: cover;
 }
