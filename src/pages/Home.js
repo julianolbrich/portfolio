@@ -38,10 +38,8 @@ const Home = () => {
 
             <br />
 
-
             <h2 id="work"> Work {'>>>'} </h2><br /><br />
             <Card /><br />
-
 
             {/* <h2> CV </h2>
             <br />
