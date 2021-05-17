@@ -39,7 +39,7 @@ const Home = () => {
             <br /><br /><br />
 
 
-            <h2 id="work"> Work >>> </h2><br /><br />
+            <h2 id="work"> Work {'>>>'} </h2><br /><br />
             <Card /><br />
 
 
