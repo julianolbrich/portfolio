@@ -156,7 +156,7 @@
 @media (max-width: 780px) {
     .Home {
         margin-top: 145px;
-        padding: 0px 20px 0px 50px;
+        padding: 0px 50px 0px 50px;
     }
     .Home h1 {
         display: none;
@@ -230,6 +230,10 @@
         position: relative;
         top: -5px;
     } */
+
+    #work{
+        padding-top: 30px;
+    }
 
 }
 

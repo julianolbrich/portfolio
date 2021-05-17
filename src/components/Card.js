@@ -20,15 +20,15 @@ function Card(props) {
                             <div className="Card-2-stack">Bootstrap</div>
                             <div className="Card-2-stack">JavaScript</div>
                             <div className="Card-2-stack">Stimulus.js</div>
-                            <div className="Card-2-stack">Web-Scraping</div>
                             <div className="Card-2-stack">API</div>
+                            <div className="Card-2-stack">Scraping</div>
                             <div className="Card-2-stack">PostgreSQL</div>
                             <div className="Card-2-stack">Heroku</div>
                         </div>
                     </div>
 
                 </div>
-                <div className="Card-2-image" style={{background: `url(${thegoodygoody})`, backgroundPosition: 'center', backgroundSize: 'gst', backgroundRepeat: 'no-repeat' }} cover></div>
+                <div className="Card-2-image" style={{background: `url(${thegoodygoody})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} cover></div>
             </div>
 
             <div className="Card-2">

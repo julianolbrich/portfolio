@@ -36,7 +36,7 @@ const Home = () => {
             </div>
             
 
-            <br /><br /><br />
+            <br />
 
 
             <h2 id="work"> Work {'>>>'} </h2><br /><br />
@@ -47,8 +47,8 @@ const Home = () => {
             <br />
             <Accordion />
             <br /><br /><br /><br /><br /> */}
-            <br /><br /><br />
-            <h2> CONTACT ME </h2>
+            <br /><br />
+            <h2> Contact </h2>
             <ContactForm />
             <br /><br /><br />
 
