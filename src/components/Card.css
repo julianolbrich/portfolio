@@ -33,13 +33,13 @@
 .Work {
     display: flex;
     margin-right: 0px;
-    /* overflow: scroll; */
+    overflow: scroll;
     z-index: 10;
 }
 
 .Card-2 {
     /* width: 14000px; */
-    margin: 0px 10px 40px 20px;
+    margin: 0px px 40px 20px;
     height: 350px;
     display: flex;
     border: 1px solid black;
