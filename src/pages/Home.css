@@ -1,6 +1,8 @@
 .Home {
     margin-top: 10px;
     padding: 0px 80px;
+    /* width: 80vw; */
+
 }
 
 .Home h1 {
@@ -29,7 +31,8 @@
 }
 
 .Home h2 a {
-    color: #001C3D;
+    /* color: #001C3D; */
+    color: #24A6DC;
     text-decoration: none;
     transition: all .1.5s ease-in-out;
 }
@@ -55,6 +58,16 @@
     margin: 30px 60px;
     /* letter-spacing: 0.5px; */
     padding: 0;
+}
+
+.Home h4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.Home h4 a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
 }
 
 .Home-smileys {
@@ -135,15 +148,15 @@
     top: -4px;
 }
 
-.fullstack {
+/* .fullstack {
     text-decoration: underline;
     text-decoration-thickness: 3px;
-}
+} */
 
 @media (max-width: 780px) {
     .Home {
-        margin-top: 150px;
-        padding: 0px 60px;
+        margin-top: 145px;
+        padding: 0px 50px;
     }
     .Home h1 {
         display: none;
@@ -155,10 +168,16 @@
     }
     .Home h4 {
         font-size: 31px;
-        letter-spacing: 1px;
+        /* letter-spacing: 0.5px; */
         line-height: 43px;
         margin: 0px 5px 0px;
     }
+
+    /* .Home h4.a {
+        text-decoration: none;
+        color: black;
+    } */
+
     .Home-smileys {
         font-size: 32px;
         /* max-width: 600px; */
@@ -167,10 +186,10 @@
         justify-content: space-around;
     }
 
-    .fullstack {
+    /* .fullstack {
         text-decoration: underline;
         text-decoration-thickness: 1px;
-    }
+    } */
     
     .Home-stack {
         font-size: 32px;

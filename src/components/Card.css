@@ -1,6 +1,6 @@
 .Card {
     /* height: 300px;   */
-    width: 80vw;
+    max-width: 80vw;
     /* border: 1px solid black; */
     margin: auto;
     display: flex;
@@ -30,35 +30,48 @@
     width: 68vw;
 }
 
+.Work {
+    display: flex;
+    overflow: scroll;
+}
+
 .Card-2 {
-    width: 90vw;
+    /* width: 14000px; */
+    margin: 0px 10px 40px 20px;
     height: 500px;
     display: flex;
     border: 1px solid black;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-    overflow: scroll;
+    /* overflow: scroll; */
     margin-bottom: 50px;
+}
+
+.Card-2-image {
+    width: 820px;
+    /* height: 352px; */
+    /* background-size: cover; */
 }
 
 .Card-2-text {
     text-align: left;
-    width: 25vw;
+    width: 250px;
     /* height: 300px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 25px;
-    overflow: scroll;
+    padding: 15px 20px 15px 20px;
+    /* overflow: scroll; */
 }
 
 .Card-2-title {
-    font-size: 36px;
+    font-size: 24px;
     font-family: 'Faster One', cursive;
-    margin-bottom: 20px;;
+    margin-bottom: 10px;
 }
 .Card-2-shorttext {
-    line-height: 25px;
-    font-size: 14px;;
+    line-height: 26px;
+    font-size: 14px;
+    word-wrap: break-word;
 }
 
 .Card-2-techstack {
@@ -86,10 +99,4 @@
 .Card-2-stacklist {
     display: flex;
     flex-wrap: wrap;
-}
-
-.Card-2-image {
-    width: 62vw;
-    /* height: 352px; */
-    background-size: cover;
 }

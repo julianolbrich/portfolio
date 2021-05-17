@@ -6,12 +6,12 @@ import merncart from './merncart.png';
 
 function Card(props) {
     return (
-        <>
+        <div className="Work">
             <div className="Card-2">
                 <div className="Card-2-text">
                     <div>
                         <div className="Card-2-title">The Goody Goody</div>
-                        <div className="Card-2-shorttext">TheGoodyGoody is a marketplace for searching and buying Vinyl.</div>
+                        <div className="Card-2-shorttext">TheGoodyGoody.com is a marketplace for searching and buying music on Vinyl. By integrating the searches of Europes largest online record stores, it currently hosts over 150.000 offers</div>
                     </div>
                     <div className="Card-2-stacks">
                         <p className="Card-2-techstack">TECH STACK</p>
@@ -28,7 +28,7 @@ function Card(props) {
                     </div>
 
                 </div>
-                <div className="Card-2-image" style={{background: `url(${thegoodygoody})`, backgroundSize:"cover"}} cover></div>
+                <div className="Card-2-image" style={{background: `url(${thegoodygoody})`, backgroundPosition: 'center', backgroundSize: 'fit', backgroundRepeat: 'no-repeat' }} cover></div>
             </div>
 
             <div className="Card-2">
@@ -74,7 +74,7 @@ function Card(props) {
                 </div>
                 <div className="Card-2-image" style={{background: `url(${merncart})`, backgroundSize:"cover"}} cover></div>
             </div>
-        </>
+        </div>
     );
 }
 
