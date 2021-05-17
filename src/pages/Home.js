@@ -47,7 +47,7 @@ const Home = () => {
             <br />
             <Accordion />
             <br /><br /><br /><br /><br /> */}
-            <br /><br />
+            <br />
             <h2> Contact </h2>
             <ContactForm />
             <br /><br /><br />
