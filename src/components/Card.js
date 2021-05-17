@@ -28,7 +28,7 @@ function Card(props) {
                     </div>
 
                 </div>
-                <div className="Card-2-image" style={{background: `url(${thegoodygoody})`, backgroundPosition: 'center', backgroundSize: 'fit', backgroundRepeat: 'no-repeat' }} cover></div>
+                <div className="Card-2-image" style={{background: `url(${thegoodygoody})`, backgroundPosition: 'center', backgroundSize: 'cover', backgroundRepeat: 'no-repeat' }} cover></div>
             </div>
 
             <div className="Card-2">
