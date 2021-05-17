@@ -12,13 +12,13 @@ function ContactForm() {
 
             <fieldset id="fs-frm-inputs">
             
-            <label for="full-name">Your Name</label>
+            <label for="full-name">Name</label>
             <input type="text" name="name" id="full-name" placeholder="H. R. Managers" required="" />
             
-            <label for="company">Your Company</label>
+            <label for="company">Company</label>
             <input type="text" name="company" id="company" placeholder="Amazing Companies" required="" />
             
-            <label for="email" htmlFor="email">Email Address</label>
+            <label for="email" htmlFor="email">Email</label>
             <input id="email" type="email" name="email" placeholder="hrmanagers@amazingcompanies.io" required="" />
             <ValidationError 
                 prefix="Email" 
@@ -30,7 +30,7 @@ function ContactForm() {
             <input type="text" name="phone" id="phone" placeholder="+49 123 4567890" />
             
             <label for="message">Message</label>
-            <textarea rows="5" name="message" id="message" type="text" placeholder="Hi Julian, &#13;&#13;please get back to us soon! We love what we're seeing and would love to work with you. &#13;&#13;Best, xyz" required=""></textarea>
+            <textarea rows="5" name="message" id="message" type="text" placeholder="Hi Julian, &#13;&#13;please get back to us soon! We'd love to work with you. &#13;&#13;Best, xyz" required=""></textarea>
             <ValidationError 
                 prefix="Message" 
                 field="message"
