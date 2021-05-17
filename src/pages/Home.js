@@ -8,6 +8,7 @@ import { SiRails } from "react-icons/si";
 
 // import Accordion from '../components/Accordion';
 import Card from '../components/Card';
+import ContactForm from '../components/ContactForm';
 
 
 const Home = () => {
@@ -18,7 +19,6 @@ const Home = () => {
                 5 years of startup experience in different 
                 roles, teams and business models.
             </h2>
-            <br /><br />
             <div className="Home-smileys">
                 <div className="Home-smiley-icon"> 👨‍🎓 </div>
                 <div className="Home-smiley-icon"> 👨‍💻 </div>
@@ -40,7 +40,7 @@ const Home = () => {
 
 
             <h2 id="work"> Work </h2><br /><br />
-            <Card /><br /><br />
+            <Card /><br />
 
 
             {/* <h2> CV </h2>
@@ -48,9 +48,8 @@ const Home = () => {
             <Accordion />
             <br /><br /><br /><br /><br /> */}
 
-            <br /><br /><br /><br />
             <h2> CONTACT ME </h2>
-            <br /><br /><br /><br />
+            <ContactForm />
 
         </div>
     );
