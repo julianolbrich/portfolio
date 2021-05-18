@@ -1,46 +1,16 @@
-.Card {
-    /* height: 300px;   */
-    max-width: 80vw;
+.Card-alt {
     /* border: 1px solid black; */
-    margin: auto;
-    display: flex;
-    overflow: hidden;
+    height: 50vw;
+    object-fit: cover;
+    margin: 0px 30px 20px 30px;
 }
 
-.Card-info {
-    /* position: absolute; */
-    right: 10vw;
-    height: auto; 
-    width: 20vw;
-    background: #5393fe;
-    opacity: 0.8;
-    padding: 10px;
-    text-align: left;
-}
-
-.Card-info h4 {
-    font-size: 30px;
-}
-
-.Card-image {
-    margin: auto;
-}
-
-.Card-image img {
-    width: 68vw;
-}
-
-.Work {
-    display: flex;
-    margin-right: 0px;
-    overflow: scroll;
-    z-index: 10;
-}
-
-.Card-2 {
-    /* width: 14000px; */
-    margin: 0px 10px 40px 20px;
-    height: 350px;
+.Card {
+    /* width: 100%; */
+    /* margin: 0px 10px 40px 20px; */
+    margin: 30px;
+    max-width: 80vw;
+    height: 400px;
     display: flex;
     border: 1px solid black;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
@@ -48,20 +18,20 @@
     transition: all .1s ease-in-out;
 }
 
-.Card-2:hover {
+.Card:hover {
     cursor: pointer;
     transition: all .1s ease-in-out;
 }
 
 
-.Card-2-image {
+.Card-image {
     width: 575px;
     /* height: 400px; */
     /* background-size: cover; */
 }
 
 
-.Card-2-text {
+.Card-text {
     text-align: left;
     width: 245px;
     /* height: 300px; */
@@ -72,30 +42,30 @@
     /* overflow: scroll; */
 }
 
-.Card-2-title {
+.Card-title {
     font-size: 24px;
     font-family: 'Faster One', cursive;
     margin-bottom: 10px;
 }
-.Card-2-shorttext {
+.Card-shorttext {
     line-height: 26px;
     font-size: 13px;
     word-wrap: break-word;
 }
 
-.Card-2-techstack {
+.Card-techstack {
     margin-top: 30px;
     font-size: 11px;
     font-style: italic;
     text-decoration: underline;
 }
 
-.Card-2-stacks {
+.Card-stacks {
     display: flex;
     flex-direction: column;
 }
 
-.Card-2-stack {
+.Card-stack {
     border-radius: 50px;
     border: 1px solid lightblue;
     padding: 5px 9px;
@@ -105,7 +75,13 @@
     line-height: 15px;
 }
 
-.Card-2-stacklist {
+.Card-stacklist {
     display: flex;
     flex-wrap: wrap;
+}
+
+@media (max-width: 650px) {
+    .Card {
+        /* flex-direction: column; */
+    }
 }

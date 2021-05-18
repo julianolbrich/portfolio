@@ -1,30 +1,28 @@
 .Sidebar {
     position: fixed;
     bottom: 0;
-    left: 20px;
-    
+    left: 10px;
     display: flex;
     flex-direction: column;
-
+    align-items: flex-start;
 }
 
 .Sidebar-links {
-    margin-bottom: 2em;
+    margin-bottom: 1.5em;
     opacity: 0.4;
     transition: all .2s ease-in-out;
     padding: .25em;
     cursor: pointer; 
 }
-
-.Sidebar-links:hover {
-    opacity: 1;
-    transform: scale(1.1) translateY(-4px);
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-}
+    .Sidebar-links:hover {
+        opacity: 1;
+        transform: scale(1.1) translateY(-4px);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+    }
 
 .lastlink {
-    margin-bottom: 95px; 
+    margin-bottom: 85px; 
 }
 
 .Sidebar-line {

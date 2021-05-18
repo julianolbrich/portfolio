@@ -1,3 +1,13 @@
+.ContactForm {
+  padding: 0px 80px;
+  margin: auto;
+  width: 80vw;
+}
+
+.ContactForm h2 {
+  font-family: 'Chicle', cursive;
+}
+
 /* reset */
 #fs-frm {
     max-width: 500px;

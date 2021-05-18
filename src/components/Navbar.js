@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import './css/Navbar.css';
 
 import PropTypes from 'prop-types';
 import AppBar from '@material-ui/core/AppBar';

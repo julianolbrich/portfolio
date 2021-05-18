@@ -1,11 +1,9 @@
-.Home {
-    margin-top: 10px;
+.Bio {
     padding: 0px 80px;
-    /* width: 80vw; */
-    overflow: hidden;
 }
 
-.Home h1 {
+/* JULIAN OLBRICH */
+.Bio h1 {
     font-family: 'Neuton', serif;
     font-size: 85px;
     font-weight: 400;
@@ -16,115 +14,96 @@
     display: inline-block;
     transition: all .1s ease-in-out;
 }
+    .Bio h1:hover {
+        color: white;
+    }
 
-.Home h1:hover {
-    color: white;
-}
-
-.Home h2 {
+/* TEXT - BUSINESS */
+.Bio h2 {
     font-family: 'Chicle', cursive;
     font-size: 90px;
     letter-spacing: 10px;
     margin: 0;
     padding: 0;
     line-height: 115px;
+    /* color: #F1D904; */
 }
+    .Bio h2 a {
+        color: #24A6DC;
+        text-decoration: none;
+        transition: all .1.5s ease-in-out;
+    }
+        .Bio h2 a:hover {
+            color: #EF4C21;
+            transition: all .0.9s ease-in-out;
+        }
 
-.Home h2 a {
-    /* color: #001C3D; */
-    color: #24A6DC;
-    text-decoration: none;
-    transition: all .1.5s ease-in-out;
-}
-
-.Home h2 a:hover {
-    color: #EF4C21;
-    transition: all .0.9s ease-in-out;
-}
-
-/* .Home h3 {
-    font-weight: 700;
-} */
-
-/* .Home h3 {
-    text-align: left;
-    font-family: 'Neuton', serif;
-} */
-
-.Home h4 {
+/* TEXT - FULLSTACK */
+.Bio h4 {
     font-family: 'Viaoda Libre', cursive;
     font-size: 70px;
     line-height: 105px;
     margin: 30px 60px;
-    /* letter-spacing: 0.5px; */
     padding: 0;
+    /* background-color: rgb(255, 225, 0); */
 }
+    .Bio h4 a {
+        text-decoration: none;
+        color: black;
+    }
+        .Bio h4 a:hover {
+            text-decoration: underline;
+            text-decoration-thickness: 2px; 
+        }
 
-.Home h4 a {
-    text-decoration: none;
-    color: black;
-}
-
-.Home h4 a:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 2px; 
-}
-
-.Home-smileys {
+/* EMOTICONS */
+.Bio-smileys {
     display: none;
 }
+    .Bio-smiley-icon {
+        margin: 20px 20px 0px;
+    }
 
-.Home-smiley-icon {
-    margin: 20px 20px 0px;
-}
-
-.Home-stack {
+/* STACK - ICONS */
+.Bio-stack {
     font-size: 60px;
     max-width: 650px;
     margin: 30px auto 0px;
     display: flex;
     justify-content: center;
 }
+    .Bio-stack-icon {
+        margin: 30px 50px;
+        transition: all .1s ease-in-out;
+    }
 
-.Home-stack-icon {
-    margin: 30px 50px;
-    transition: all .1s ease-in-out;
-}
-/* 
-.Home-stack-icon:hover {
-    opacity: 0.4;
-} */
-
+/* STACK - IN-TEXT */
 .rails {
     color: black;
     transition: all .1s ease-in-out;
 }
-
+    .rails:hover {
+        color: #C60402;
+        transition: all .1s ease-in-out;
+    }
 .javascript {
     color: black;
     transition: all .1s ease-in-out;
 }
-
+    .javascript:hover {
+        color: #EFD919;
+        transition: all .1s ease-in-out;
+    }
 .react {
     color: black;
     transition: all .1s ease-in-out;
 }
+    .react:hover {
+        color: #05D1F6;
+        transition: all .1s ease-in-out;
+    }
 
-.rails:hover {
-    color: #C60402;
-    transition: all .1s ease-in-out;
-}
-
-.javascript:hover {
-    color: #EFD919;
-    transition: all .1s ease-in-out;
-}
-
-.react:hover {
-    color: #05D1F6;
-    transition: all .1s ease-in-out;
-}
-
+/* ICONS */
 .rails-icon {
     color: #C60402;
     font-size: 84px;
@@ -132,15 +111,12 @@
     top: -17px;
     margin-right: 35px;
 }
-
 .javascript-icon {
     color: #EFD919;
 }
-
 .react-icon {
     color: #05D1F6;
 }
-
 .node-icon {
     color: #71A761;
     font-size: 71px;
@@ -153,33 +129,27 @@
     text-decoration-thickness: 3px;
 } */
 
+
 @media (max-width: 780px) {
-    .Home {
-        margin-top: 148px;
+    .Bio {
         padding: 0px 20px 0px 45px;
-        z-index: 0;
     }
-    .Home h1 {
+    .Bio h1 {
         display: none;
     }
-    .Home h2 {
+    .Bio h2 {
         font-size: 34px;
         letter-spacing: 1px;
         line-height: 46px;
     }
-    .Home h4 {
+    .Bio h4 {
         font-size: 29px;
         /* letter-spacing: 0.5px; */
         line-height: 41px;
         margin: 0px 5px 0px;
     }
 
-    /* .Home h4.a {
-        text-decoration: none;
-        color: black;
-    } */
-
-    .Home-smileys {
+    .Bio-smileys {
         font-size: 32px;
         /* max-width: 600px; */
         margin: 5px auto 43px;
@@ -192,7 +162,7 @@
         text-decoration-thickness: 1px;
     } */
     
-    .Home-stack {
+    .Bio-stack {
         font-size: 32px;
         display: flex;
         justify-content: space-around;
@@ -210,7 +180,7 @@
         color: #05D1F6;
     }
     
-    .Home-stack-icon {
+    .Bio-stack-icon {
         margin: 0 10px;
     }
 
@@ -236,57 +206,4 @@
         padding-top: 30px;
     }
 
-}
-
-
-
-
-/* iPhone 2,3,4 */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px) {
-  
-}
-/* iPhone 5 */
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
-  
-}
-/* iPhone 6,7,8 */
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) {
-}
-/* iPhone PLUS 6,7,8 */
-@media only screen 
-and (min-device-width : 414px) 
-and (max-device-width : 736px) {
-  
-}
-/* iPhone X */
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 812px)
-and (-webkit-device-pixel-ratio : 3), (min-resolution: 3dppx) {
-  
-}
-/* iPad Mini */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)
-and (-webkit-min-device-pixel-ratio: 1), (min-resolution: 1dppx)  {
-  
-}
-/* iPad 1,2 */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  {
-  
-}
-/* iPad 3,4 Retina, Samsung Galaxy S7+ */
-@media only screen 
-and (min-device-width: 768px) 
-and (max-device-width: 1024px) 
-and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx)  {
 }

@@ -1,14 +1,19 @@
 import './App.css';
+
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
-import Home from './pages/Home';
+import Bio from './components/Bio';
+import Work from './components/Work';
+import ContactForm from './components/ContactForm';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <Sidebar />
-      <Home />
+      <Bio />
+      <Work />      
+      <ContactForm />
     </div>
   );
 }
