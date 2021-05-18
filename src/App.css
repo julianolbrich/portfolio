@@ -2,5 +2,5 @@ body {
   font-family: Space Mono,monospace;
   text-align: center;
   /* background-color: #EFD60B; */
-  width: 100%;
+  margin: 0;
 }

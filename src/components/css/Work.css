@@ -2,11 +2,13 @@
     padding: 0px 80px;
     overflow: scroll;
     font-family: 'Chicle', cursive;
+    /* background: linear-gradient( 90deg, #EFD60B, #EFD60B 67px, #fff 20px, #fff 40px) */
+    /* background: #24A6DC; */
 }
 
 .Work h2 {
     font-size: 43px;
-    margin-bottom: 20px;
+    margin: 19px 20px 10px;
 }
 
 .Work-cards {

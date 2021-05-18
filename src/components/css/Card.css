@@ -1,51 +1,83 @@
 .Card-alt {
-    /* border: 1px solid black; */
+    width: 1000px;
     height: 50vw;
-    object-fit: cover;
-    margin: 0px 30px 20px 30px;
+    border: 1 px solid black;
+    display: flex;
+    flex-direction: column;
 }
 
+.Card-alt-text {
+    height: 25vw;
+    text-align: center;
+    width: 245px;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 3px 15px 9px;
+    overflow: scroll;
+    background: white;
+}
+
+.Card-alt-image {
+    /* border: 1px solid black; */
+    width: 80vw;
+    height: 120vw;
+    object-fit: cover;
+    /* margin: 0px 30px 20px 30px; */
+}
+
+/* .Card-alt:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    transition: all .1s ease-in-out;
+    position: relative; 
+    top: -2px;
+    right: -1px;
+} */
+
 .Card {
-    /* width: 100%; */
-    /* margin: 0px 10px 40px 20px; */
-    margin: 30px;
-    max-width: 80vw;
-    height: 400px;
+    margin: 20px auto;
+    max-width: 590px;
+    height: 250px;
     display: flex;
     border: 1px solid black;
     box-shadow: 0px 3px 15px rgba(0,0,0,0.3);
-    /* overflow: scroll; */
-    transition: all .1s ease-in-out;
+    transition: all .08s ease-in-out;
+    opacity: 0.7;
 }
 
 .Card:hover {
     cursor: pointer;
+    opacity: 1;
     transition: all .1s ease-in-out;
 }
 
-
 .Card-image {
-    width: 575px;
+    width: 590px;
     /* height: 400px; */
     /* background-size: cover; */
+    background: white;
 }
 
 
 .Card-text {
     text-align: left;
-    width: 245px;
+    width: 240px;
     /* height: 300px; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 10px 3px 15px 12px;
-    /* overflow: scroll; */
+    padding: 5px 3px 15px 9px;
+    overflow: scroll;
+    background: white;
 }
 
 .Card-title {
-    font-size: 24px;
+    font-size: 20px;
     font-family: 'Faster One', cursive;
-    margin-bottom: 10px;
+    margin-bottom: 2px;
+    padding-left: 0px;
 }
 .Card-shorttext {
     line-height: 26px;
@@ -54,7 +86,7 @@
 }
 
 .Card-techstack {
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 11px;
     font-style: italic;
     text-decoration: underline;
@@ -69,7 +101,7 @@
     border-radius: 50px;
     border: 1px solid lightblue;
     padding: 5px 9px;
-    margin: 7px 10px 7px 0px;
+    margin: 0px 4px 7px 0px;
     text-align: center;
     font-size: 10px;
     line-height: 15px;
@@ -78,10 +110,38 @@
 .Card-stacklist {
     display: flex;
     flex-wrap: wrap;
+    margin: auto;
 }
 
 @media (max-width: 650px) {
     .Card {
+        max-width: 360px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Card-image {
+        width: auto;
+        height: 219px;
+        /* background-size: cover; */
+        background: white;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .Card {
+        max-width: 853px;
+        height: auto;
+        display: flex;
         /* flex-direction: column; */
+    }
+
+    .Card-image {
+        width: 802px;
+        height: 393px;
+        /* background-size: cover; */
+        background: white;
     }
 }

@@ -1,11 +1,17 @@
 .ContactForm {
-  padding: 0px 80px;
+  padding: 15px 40px 40px 50px;
+  /* padding: 0px 80px;
   margin: auto;
-  width: 80vw;
+  width: 80vw; */
+  /* background: black; */
+  /* color: white; */
 }
 
 .ContactForm h2 {
   font-family: 'Chicle', cursive;
+  font-size: 43px;
+  padding-left: 0px;
+  margin-bottom: 0px;
 }
 
 /* reset */

@@ -13,24 +13,28 @@ function Bio() {
 
     return (
         <div className="Bio">
-            <h1>JULIAN OLBRICH</h1>
-            <h2>Ex-Head of Sales with a <a href={url_maastricht} target="_blank" rel="noreferrer"> M.Sc. International Business</a> & 
-                5 years experience in different startups, roles and teams.
-            </h2>
-            <div className="Bio-smileys">
-                <div className="Bio-smiley-icon"> 👨‍🎓 </div>
-                <div className="Bio-smiley-icon"> 👨‍💻 </div>
-                <div className="Bio-smiley-icon"> 👨‍💼 </div>
-                <div className="Bio-smiley-icon"> &#x1F9B8; </div>
+            <div className="Bio-business">
+                {/* <h1>JULIAN OLBRICH</h1> */}
+                <h2>Ex-Head of Sales with a <a href={url_maastricht} target="_blank" rel="noreferrer"> M.Sc. International Business</a> & 
+                    5 years experience in different companies, roles and teams.
+                </h2>
+                <div className="Bio-smileys">
+                    <div className="Bio-smiley-icon"> 👨‍🎓 </div>
+                    <div className="Bio-smiley-icon"> 👨‍💻 </div>
+                    <div className="Bio-smiley-icon"> 👨‍💼 </div>
+                    <div className="Bio-smiley-icon"> &#x1F9B8; </div>
+                </div>
             </div>
-            <h4> I evolved into becoming a <span className="fullstack">  <a href={url_lewagon} target="_blank" rel="noreferrer"> <em>Full-Stack </em> Software Developer </a> </span>  with 
-                <em> <span className="rails">Ruby on Rails</span>, <span className="javascript">JavaScript</span> </em> & <em> <span className="react">React.js</span> </em> since 2020.
-            </h4>
-            <div className="Bio-stack">
-                <div className="Bio-stack-icon rails-icon"> <SiRails /> </div>
-                <div className="Bio-stack-icon node-icon"> <FaNode /> </div>
-                <div className="Bio-stack-icon javascript-icon"> <FaJs /> </div>
-                <div className="Bio-stack-icon react-icon"> <FaReact /> </div>
+            <div className="Bio-tech"> 
+                <h4> In 2020 I evolved into becoming a <span className="fullstack">  <a href={url_lewagon} target="_blank" rel="noreferrer"> <em>Full-Stack </em> Software Developer </a> </span>  with 
+                    <em> <span className="rails">Ruby on Rails</span>, <span className="javascript">JavaScript</span> </em> & <em> <span className="react">React.js</span> </em>
+                </h4>
+                <div className="Bio-stack">
+                    <div className="Bio-stack-icon rails-icon"> <SiRails /> </div>
+                    <div className="Bio-stack-icon node-icon"> <FaNode /> </div>
+                    <div className="Bio-stack-icon javascript-icon"> <FaJs /> </div>
+                    <div className="Bio-stack-icon react-icon"> <FaReact /> </div>
+                </div>
             </div>
         </div>
     );

@@ -1,12 +1,23 @@
 .Bio {
-    padding: 0px 80px;
-    margin-top: 10px;
+    /* padding: 0px 80px; */
+    margin-top: 20px;
+}
+
+.Bio-business {
+    /* background-color:  #EFD60B; */
+    padding: 50px 80px 30px 80px;
+}
+
+.Bio-tech {
+    background-color:  #fff;
+    padding: 10px 45px 0px 45px;
+    /* background: linear-gradient( 90deg, #EF4C21, #EF4C21 67px, #fff 20px, #fff 40px) */
 }
 
 /* JULIAN OLBRICH */
 .Bio h1 {
     font-family: 'Neuton', serif;
-    font-size: 85px;
+    font-size: 83px;
     font-weight: 400;
     text-align: center;
     margin: 50px 0px 60px;
@@ -14,6 +25,7 @@
     line-height: 90px;
     display: inline-block;
     transition: all .1s ease-in-out;
+    /* background-color: #EFD60B; */
 }
     .Bio h1:hover {
         color: white;
@@ -27,7 +39,8 @@
     margin: 0;
     padding: 0;
     line-height: 115px;
-    /* color: #F1D904; */
+    color: #EFD60B;
+    /* background-color: #EFD60B; */
 }
     .Bio h2 a {
         color: #24A6DC;
@@ -44,7 +57,7 @@
     font-family: 'Viaoda Libre', cursive;
     font-size: 70px;
     line-height: 105px;
-    margin: 30px 60px;
+    margin: 30px 20px;
     padding: 0;
     /* background-color: rgb(255, 225, 0); */
 }
@@ -133,7 +146,7 @@
 
 @media (max-width: 780px) {
     .Bio {
-        padding: 0px 45px 0px 45px;
+        padding: 0px;
         margin-top: 83px;
     }
     .Bio h1 {
@@ -154,7 +167,7 @@
     .Bio-smileys {
         font-size: 32px;
         /* max-width: 600px; */
-        margin: 5px auto 43px;
+        margin: 5px auto 25px;
         display: flex;
         justify-content: space-around;
     }
@@ -170,7 +183,7 @@
         justify-content: space-around;
     }
 
-    .rails {
+    /* .rails {
         color: #C60402;
     }
     
@@ -180,7 +193,7 @@
     
     .react {
         color: #05D1F6;
-    }
+    } */
     
     .Bio-stack-icon {
         margin: 0 10px;

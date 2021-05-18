@@ -3,6 +3,8 @@
     display: flex;
     justify-content: space-between;
     box-shadow: none;
+    /* background-color: #EFD60B; */
+    z-index: 0;
 }
 
 .Navbar-logo {
