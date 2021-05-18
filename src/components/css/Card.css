@@ -37,6 +37,7 @@
 } */
 
 .Card {
+    padding: 15px 15px 15px 10px;
     margin: 20px auto;
     max-width: 590px;
     height: 250px;
@@ -83,6 +84,7 @@
     line-height: 26px;
     font-size: 13px;
     word-wrap: break-word;
+    
 }
 
 .Card-techstack {
@@ -100,7 +102,7 @@
 .Card-stack {
     border-radius: 50px;
     border: 1px solid lightblue;
-    padding: 5px 9px;
+    padding: 3px 7px;
     margin: 0px 4px 7px 0px;
     text-align: center;
     font-size: 10px;
@@ -115,6 +117,7 @@
 
 @media (max-width: 650px) {
     .Card {
+        padding: 0px 6px 8px 7px;
         max-width: 360px;
         height: auto;
         display: flex;
@@ -127,12 +130,16 @@
         /* background-size: cover; */
         background: white;
     }
+
+    .Card-text {
+        padding: 5px 3px 5px 9px;
+    }
 }
 
 
 @media (min-width: 1000px) {
     .Card {
-        max-width: 853px;
+        max-width: 851px;
         height: auto;
         display: flex;
         /* flex-direction: column; */
@@ -144,4 +151,5 @@
         /* background-size: cover; */
         background: white;
     }
+
 }

@@ -1,7 +1,7 @@
 .Sidebar {
     position: fixed;
     bottom: 0;
-    left: 16px;
+    left: 10px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -55,6 +55,9 @@
 
 
 @media (max-width: 650px) {
+    .Sidebar {
+        left: 7px;
+    }
     .Sidebar-navlink-work {
         display: inline;
         cursor: pointer;

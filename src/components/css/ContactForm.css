@@ -1,5 +1,6 @@
 .ContactForm {
-  padding: 15px 40px 40px 50px;
+  padding: 15px 50px 40px 60px;
+  background: linear-gradient( 90deg, #EFD60B, #24A6DC 55px, #fff 20px, #fff 40px)
   /* padding: 0px 80px;
   margin: auto;
   width: 80vw; */
@@ -84,6 +85,7 @@
   -webkit-appearance: button;
   -moz-appearance: button;
   appearance: button;
+  align-items: center;
 }
 #fs-frm [type="button"]:focus,
 #fs-frm [type="submit"]:focus,

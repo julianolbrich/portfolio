@@ -5,13 +5,13 @@
 
 .Bio-business {
     /* background-color:  #EFD60B; */
-    padding: 50px 80px 30px 80px;
+    padding: 50px 80px 30px 90px;
 }
 
 .Bio-tech {
     background-color:  #fff;
-    padding: 10px 45px 0px 45px;
-    /* background: linear-gradient( 90deg, #EF4C21, #EF4C21 67px, #fff 20px, #fff 40px) */
+    padding: 10px 60px 0px 65px;
+    background: linear-gradient( 90deg, #EF4C21, #EF4C21 55px, #fff 20px, #fff 40px)
 }
 
 /* JULIAN OLBRICH */
@@ -161,7 +161,7 @@
         font-size: 29px;
         /* letter-spacing: 0.5px; */
         line-height: 41px;
-        margin: 0px 5px 0px;
+        margin: 7px 5px 0px;
     }
 
     .Bio-smileys {

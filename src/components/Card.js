@@ -35,11 +35,11 @@ function Card(props) {
             {/* <div className="Card-alt" style={{background: `url(${whatsapp})`, backgroundPosition: 'center', backgroundSize: 'contain'  , backgroundRepeat: 'no-repeat' }}></div> 
             <div className="Card-alt" style={{background: `url(${merncart})`, backgroundPosition: 'center', backgroundSize: 'contain'  , backgroundRepeat: 'no-repeat' }}></div>  */}
 
-            <div className="Card">
+            <a className="Card" href="https://www.thegoodygoody.com/" target="_blank" rel="noreferrer">
                 <div className="Card-text">
                     <div>
                         <div className="Card-title">The Goody Goody</div>
-                        <div className="Card-shorttext">By integrating the searches of Europes largest online record stores, we currently host over 150000 Vinyls.</div>
+                        <div className="Card-shorttext">Search Vinyl in Europes largest online Record Stores. Automated Scrapers that host over 150.000 Vinyls</div>
                     </div>
                     <div className="Card-stacks">
                         <p className="Card-techstack">TECH STACK</p>
@@ -56,7 +56,7 @@ function Card(props) {
                     </div>
                 </div>
                 <div className="Card-image" style={{background: `url(${thegoodygoody})`, backgroundPosition: 'center center', backgroundSize: 'contain', backgroundRepeat: 'no-repeat' }}></div>
-            </div>
+            </a>
 
             <div className="Card">
                 <div className="Card-text">

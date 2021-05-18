@@ -6,6 +6,9 @@
     /* background-color: #EFD60B; */
     z-index: 0;
 }
+    .Navbar-logo:hover {
+        color: white;
+    }
 
 .Navbar-logo {
     padding: 20px 20px 20px 30px;
@@ -13,9 +16,11 @@
     color: black;
     font-family: 'Faster One', cursive;
     margin: 10px;
+    transition: all .08s ease-in-out;
 }
     .Navbar-logo h2 {
         font-family: 'Viaoda Libre', cursive;
+        transition: all .08s ease-in-out;
     }
 
 .Navbar-links {
