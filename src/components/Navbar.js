@@ -25,10 +25,10 @@ HideOnScroll.propTypes = {
 
 export default function HideAppBar(props) {
 
-  function scrollToId(e) {
-    e.preventDefault();
-    document.getElementById('work').scrollIntoView({ behavior: 'smooth' })
-  }
+  // function scrollToId(e) {
+  //   e.preventDefault();
+  //   document.getElementById('work').scrollIntoView({ behavior: 'smooth' })
+  // }
   
   return (
     <>
@@ -40,7 +40,8 @@ export default function HideAppBar(props) {
                 </h1>
                 
                 <div className="Navbar-links">
-                    <a className="Navbar-link" onClick={scrollToId} href="/work">Work</a>
+                    <a className="Navbar-link" href="/work">Work</a>
+                    {/* <a className="Navbar-link" onClick={scrollToId} href="/work">Work</a> */}
                     <a className="Navbar-link" href="/cv">CV</a>
                     <a className="Navbar-link" href="/contact">Contact</a>
                 </div> 
