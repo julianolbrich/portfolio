@@ -9,11 +9,16 @@ import AlbumIcon from '@material-ui/icons/Album';
 function Sidebar(props) {
     return (
         <div className="Sidebar">
-            <a className="Sidebar-links" href="https://github.com/julianolbrich" target="_blank" rel="noreferrer"> <GitHubIcon color="primary" /> </a>
-            <a className="Sidebar-links" href="https://www.linkedin.com/in/julianolbrich/" target="_blank" rel="noreferrer"> <LinkedInIcon color="primary" /> </a>
-            <a className="Sidebar-links" href="https://www.instagram.com/thegoodygoody__/" target="_blank" rel="noreferrer"> <InstagramIcon color="primary" /> </a>
-            <a className="Sidebar-links" href="https://www.thegoodygoody.com/" target="_blank" rel="noreferrer"> <AlbumIcon color="primary" /> </a>
-            <a className="Sidebar-links lastlink" href="mailto:julianolbrich@gmail.com" target="_blank" rel="noreferrer"> <MailIcon color="primary" /> </a>
+            <a className="Sidebar-navlink-work"> Work </a>
+            <a className="Sidebar-navlink-cv"> CV </a>
+            <a className="Sidebar-navlink-contact"> Contact </a>
+            {/* <p className="Sidebar-navlink"> CV </p>
+            <p className="Sidebar-navlink"> Contact </p> */}
+            <a className="Sidebar-icon" href="https://github.com/julianolbrich" target="_blank" rel="noreferrer"> <GitHubIcon color="primary" /> </a>
+            <a className="Sidebar-icon" href="https://www.linkedin.com/in/julianolbrich/" target="_blank" rel="noreferrer"> <LinkedInIcon color="primary" /> </a>
+            <a className="Sidebar-icon" href="https://www.instagram.com/thegoodygoody__/" target="_blank" rel="noreferrer"> <InstagramIcon color="primary" /> </a>
+            <a className="Sidebar-icon" href="https://www.thegoodygoody.com/" target="_blank" rel="noreferrer"> <AlbumIcon color="primary" /> </a>
+            <a className="Sidebar-icon lastlink" href="mailto:julianolbrich@gmail.com" target="_blank" rel="noreferrer"> <MailIcon color="primary" /> </a>
             <div className="Sidebar-line"> </div>
         </div>
     );

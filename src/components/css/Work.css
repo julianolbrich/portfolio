@@ -4,6 +4,11 @@
     font-family: 'Chicle', cursive;
 }
 
+.Work h2 {
+    font-size: 43px;
+    margin-bottom: 20px;
+}
+
 .Work-cards {
     display: flex;
     flex-direction: column;
@@ -14,7 +19,7 @@
 
 @media (max-width: 780px) {
     .Work {
-        padding: 0px 20px 0px 45px;
+        padding: 0px 0px 0px 20px;
         margin-right: 0px;
     }
   }

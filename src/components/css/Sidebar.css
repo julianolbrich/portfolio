@@ -1,20 +1,36 @@
 .Sidebar {
     position: fixed;
     bottom: 0;
-    left: 10px;
+    left: 5px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    font-family: 'Chicle', cursive;
+    /* height: 90vh; */
+    /* border: 1px solid #888;
+    box-shadow: 2px 0 12px -2px #888; */
 }
 
-.Sidebar-links {
-    margin-bottom: 1.5em;
+.Sidebar-navlink-work {
+    display: none;
+}
+
+.Sidebar-navlink-cv {
+    display: none;
+}
+
+.Sidebar-navlink-contact {
+    display: none;
+}
+
+.Sidebar-icon {
+    margin-bottom: 1.3em;
     opacity: 0.4;
     transition: all .2s ease-in-out;
     padding: .25em;
     cursor: pointer; 
 }
-    .Sidebar-links:hover {
+    .Sidebar-icon:hover {
         opacity: 1;
         transform: scale(1.1) translateY(-4px);
         -webkit-transform: scale(1.1);
@@ -27,10 +43,66 @@
 
 .Sidebar-line {
     content: "";
-    height: 4em;
+    height: 3.7em;
     width: 5px;
     background: #5393fe;
     position: absolute;
-    left: 13px;
+    left: 16px;
     bottom: 0;
+    
+}
+
+
+@media (max-width: 650px) {
+    .Sidebar-navlink-work {
+        display: inline;
+        cursor: pointer;
+        transform: rotate(270deg);
+        margin-bottom: 40px;
+        color: #5393fe;
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+        .Sidebar-navlink-work:hover {
+            color: #EFD919;
+        }
+    
+    .Sidebar-navlink-cv {
+        display: inline;
+        cursor: pointer;
+        /* transform: rotate(270deg); */
+        margin-bottom: 39px;
+        padding-left: 12px;
+        color: #5393fe;
+    }
+    .Sidebar-navlink-cv:hover {
+        color: #EFD919;
+    }
+
+    
+    .Sidebar-navlink-contact {
+        display: inline;
+        cursor: pointer;
+        transform: rotate(270deg);
+        margin-bottom: 45px;
+        /* padding-left: 7px; */
+        padding-left: 1px;
+        color: #5393fe;
+    }
+    .Sidebar-navlink-contact:hover {
+        color: #EFD919;
+    }
+
+    .Sidebar-icon {
+        /* margin: auto; */
+        margin: 0px auto 1.3em auto;
+    }
+
+    .Sidebar-line {
+        background: #EFD919;
+    }  
+    
+    .lastlink {
+        margin-bottom: 80px; 
+    }
 }
