@@ -161,13 +161,14 @@
         line-height: 46px;
     }
     .Bio-tech {
-        padding: 30px 80px 30px 90px;
+        padding: 30px 80px 30px 80px;
     }    
     .Bio h4 {
-        font-size: 30px;
+        font-size: 29px;
         
         line-height: 41px;
         margin: 17px 0px 0px;
+        letter-spacing: 0.5px;
     }
 
     .Bio-smileys {
