@@ -1,5 +1,6 @@
 .ContactForm {
-  padding: 15px 75px 20px 65px;
+  margin-top: 60px;
+  padding: 5px 75px 20px 65px;
   /* background: linear-gradient( 90deg, #EFD60B 55px, #fff 20px, #fff 40px) */
   background: linear-gradient( 90deg, #EFD60B, #24A6DC 55px, #fff 20px, #fff 40px)
   /* padding: 0px 80px;
@@ -115,7 +116,7 @@
     /* height: 40px; */
     display: flex;
     justify-content: space-between;
-    margin: 35px 0px 15px 15px;
+    margin: 35px 0px 15px 25px;
     /* margin: auto; */
     /* padding: 15px 5px 10px 20px; */
   }
