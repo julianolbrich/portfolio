@@ -114,8 +114,9 @@
     /* height: 40px; */
     display: flex;
     justify-content: space-between;
+    margin-left: 10px;
     /* margin: auto; */
-    padding: 15px 5px 10px 20px;
+    /* padding: 15px 5px 10px 20px; */
   }
   .Sidebar-bottom-icon {
     margin: 0px 12px;
