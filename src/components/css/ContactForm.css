@@ -1,17 +1,18 @@
 .ContactForm {
-  padding: 15px 50px 40px 60px;
+  padding: 15px 75px 10px 65px;
+  /* background: linear-gradient( 90deg, #EFD60B 55px, #fff 20px, #fff 40px) */
   background: linear-gradient( 90deg, #EFD60B, #24A6DC 55px, #fff 20px, #fff 40px)
   /* padding: 0px 80px;
   margin: auto;
   width: 80vw; */
-  /* background: black; */
+  /* background: #EFD60B; */
   /* color: white; */
 }
 
 .ContactForm h2 {
   font-family: 'Chicle', cursive;
   font-size: 43px;
-  padding-left: 0px;
+  padding-left: 6px;
   margin-bottom: 0px;
   letter-spacing: 2px;
 }
@@ -61,7 +62,7 @@
 #fs-frm #card-element {
   border: 1px solid rgba(0,0,0,0.2);
   background-color: rgba(255,255,255,0.9);
-  padding: .75em 1rem;
+  padding: .7em 1rem;
   margin-bottom: 0.7rem;
 }
 #fs-frm input:focus,
@@ -99,4 +100,34 @@
 }
 #fs-frm select {
   text-transform: none;
+}
+
+.Sidebar-bottom {
+  display: none;
+}
+
+
+
+@media (max-width: 640px) {
+  .Sidebar-bottom {
+    /* width: 260px; */
+    /* height: 40px; */
+    display: flex;
+    justify-content: space-between;
+    /* margin: auto; */
+    padding: 15px 5px 10px 20px;
+  }
+  .Sidebar-bottom-icon {
+    margin: 0px 12px;
+    opacity: 0.7;
+    transition: all .2s ease-in-out;
+    padding: .28em;
+    cursor: pointer;
+  }
+    .Sidebar-bottom-icon:hover {
+        opacity: 1;
+        transform: scale(1.1) translateY(-4px);
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+    }
 }

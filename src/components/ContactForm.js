@@ -2,6 +2,13 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import './css/ContactForm.css';
 
+import GitHubIcon from '@material-ui/icons/GitHub';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import MailIcon from '@material-ui/icons/Mail';
+import AlbumIcon from '@material-ui/icons/Album';
+
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("mqkwpdrk");
   if (state.succeeded) {
@@ -10,6 +17,7 @@ function ContactForm() {
   return (
     <div className="ContactForm">
       <h2> Contact </h2>
+
       <form onSubmit={handleSubmit} id="fs-frm" name="simple-contact-form" accept-charset="utf-8">
         <fieldset id="fs-frm-inputs">
         
@@ -45,6 +53,14 @@ function ContactForm() {
             Submit
         </button>
       </form>
+
+      <div className="Sidebar-bottom">
+          <a className="Sidebar-bottom-icon" href="mailto:julianolbrich@gmail.com" target="_blank" rel="noreferrer"> <MailIcon htmlColor="black"  /> </a>
+          <a className="Sidebar-bottom-icon" href="https://github.com/julianolbrich" target="_blank" rel="noreferrer"> <GitHubIcon htmlColor="black" /> </a>
+          <a className="Sidebar-bottom-icon" href="https://www.linkedin.com/in/julianolbrich/" target="_blank" rel="noreferrer"> <LinkedInIcon htmlColor="black"  /> </a>
+          <a className="Sidebar-bottom-icon" href="https://www.thegoodygoody.com/" target="_blank" rel="noreferrer"> <AlbumIcon htmlColor="black"  /> </a>
+          <a className="Sidebar-bottom-icon" href="https://www.instagram.com/thegoodygoody__/" target="_blank" rel="noreferrer"> <InstagramIcon htmlColor="black"  /> </a>
+      </div>
     </div>
   );
 }

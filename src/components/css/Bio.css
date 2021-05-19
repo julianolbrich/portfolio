@@ -1,22 +1,10 @@
 .Bio {
     /* padding: 0px 80px; */
-    margin-top: 20px;
-}
-
-.Bio-business {
-    /* background-color:  #EFD60B; */
-    padding: 50px 80px 30px 90px;
-}
-
-.Bio-tech {
-    background-color:  #fff;
-    padding: 10px 50px 0px 65px;
-    background: linear-gradient( 90deg, #EF4C21, #EFD60B 55px, #fff 20px, #fff 40px)
-
+    margin-top: 40px;
 }
 
 /* JULIAN OLBRICH */
-.Bio h1 {
+/* .Bio h1 {
     font-family: 'Neuton', serif;
     font-size: 83px;
     font-weight: 400;
@@ -26,20 +14,24 @@
     line-height: 90px;
     display: inline-block;
     transition: all .1s ease-in-out;
-    /* background-color: #EFD60B; */
 }
     .Bio h1:hover {
         color: white;
-    }
+    } */
+
+.Bio-business {
+    /* background-color:  #EFD60B; */
+    padding: 50px 120px 60px 130px;
+}
 
 /* TEXT - BUSINESS */
 .Bio h2 {
     font-family: 'Chicle', cursive;
-    font-size: 88px;
-    letter-spacing: 10px;
+    font-size: 80px;
+    letter-spacing: 6px;
     margin: 0;
     padding: 0;
-    line-height: 115px;
+    line-height: 100px;
     color: #EFD60B;
     /* background-color: #EFD60B; */
 }
@@ -53,14 +45,19 @@
             transition: all .0.9s ease-in-out;
         }
 
+.Bio-tech {
+    background-color:  #fff;
+    padding: 30px 120px 30px 130px;
+    background: linear-gradient( 90deg, #EF4C21, #24A6DC 55px, #fff 20px, #fff 40px)
+}
 /* TEXT - FULLSTACK */
 .Bio h4 {
     font-family: 'Viaoda Libre', cursive;
-    font-size: 69px;
-    line-height: 105px;
+    font-size: 59px;
+    line-height: 86px;
     margin: 30px 20px;
     padding: 0;
-    letter-spacing: 0.5px;
+    letter-spacing: 1.5px;
     /* background-color: rgb(255, 225, 0); */
 }
     .Bio h4 a {
@@ -149,16 +146,23 @@
 @media (max-width: 780px) {
     .Bio {
         padding: 0px;
-        margin-top: 83px;
+        margin-top: 70px;
     }
-    .Bio h1 {
+    /* .Bio h1 {
         display: none;
+    } */
+    .Bio-business {
+        /* background-color:  #EFD60B; */
+        padding: 50px 80px 60px 90px;
     }
     .Bio h2 {
         font-size: 34px;
         letter-spacing: 1px;
         line-height: 46px;
     }
+    .Bio-tech {
+        padding: 30px 90px 30px 100px;
+    }    
     .Bio h4 {
         font-size: 30px;
         
