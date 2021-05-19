@@ -146,7 +146,7 @@
 @media (max-width: 780px) {
     .Bio {
         padding: 0px;
-        margin-top: 60px;
+        margin-top: 55px;
     }
     /* .Bio h1 {
         display: none;
@@ -156,7 +156,7 @@
         padding: 50px 80px 40px 90px;
     }
     .Bio h2 {
-        font-size: 34px;
+        font-size: 35px;
         letter-spacing: 1px;
         line-height: 46px;
     }
