@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     box-shadow: none;
-    /* background-color: #EFD60B; */
     z-index: 0;
 }
     .Navbar-logo:hover {
@@ -18,10 +17,6 @@
     margin: 10px;
     transition: all .08s ease-in-out;
 }
-    .Navbar-logo h2 {
-        font-family: 'Viaoda Libre', cursive;
-        transition: all .08s ease-in-out;
-    }
 
 .Navbar-links {
     display: flex;
@@ -34,16 +29,14 @@
         text-decoration: underline;
         transition: all .07s ease-in-out;
         font-weight: 500;
+        padding: 0px 30px;
+        margin: auto;
     }
         .Navbar-links a:hover {
             font-weight: 700;
             text-decoration: none;
             transform: scale(1.1);
         }
-            .Navbar-link {
-                padding: 0px 30px;
-                margin: auto;
-            }
 
 @media (max-width: 650px) {
     .Navbar {

@@ -40,10 +40,10 @@ export default function HideAppBar(props) {
                 </h1>
                 
                 <div className="Navbar-links">
-                    <a className="Navbar-link" href="/work">Work</a>
-                    {/* <a className="Navbar-link" onClick={scrollToId} href="/work">Work</a> */}
-                    <a className="Navbar-link" href="/cv">CV</a>
-                    <a className="Navbar-link" href="/contact">Contact</a>
+                    <a href="/work">Work</a>
+                    {/* <a onClick={scrollToId} href="/work">Work</a> */}
+                    <a href="/cv">CV</a>
+                    <a href="/contact">Contact</a>
                 </div> 
             </div>
         </AppBar>

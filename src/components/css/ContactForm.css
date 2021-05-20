@@ -1,14 +1,7 @@
 .ContactForm {
-  /* margin-top: 45px; */
   padding: 175px 75px 35px 65px;
-  /* background: linear-gradient( 90deg, #EFD60B 55px, #fff 20px, #fff 40px) */
-  /* background: linear-gradient( 90deg, #EF4C21, #24A6DC 55px, #fff 20px, #fff 40px) */
   background: linear-gradient( 180deg, #EF4C21, #24A6DC 150px, #fff 20px, #fff 40px);
-  /* padding: 0px 80px;
-  margin: auto;
-  width: 80vw; */
-  /* background: #EFD60B; */
-  /* color: white; */
+
 }
 
 .ContactForm h2 {
@@ -117,13 +110,9 @@
 
 @media (max-width: 640px) {
   .Sidebar-bottom {
-    /* width: 260px; */
-    /* height: 40px; */
     display: flex;
     justify-content: space-between;
     margin: 50px 0px 15px 25px;
-    /* margin: auto; */
-    /* padding: 15px 5px 10px 20px; */
   }
   .Sidebar-bottom-icon {
     margin: 0px 12px;

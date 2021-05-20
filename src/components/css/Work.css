@@ -1,9 +1,6 @@
 .Work {
-    /* padding: 0px 80px 30px 80px; */
     overflow: scroll;
     font-family: 'Chicle', cursive;
-    /* background: linear-gradient( 90deg, #EFD60B, #EFD60B 67px, #fff 20px, #fff 40px) */
-    /* background: #24A6DC; */
     background: linear-gradient( 180deg, #EFD60B, #EF4C21 100%, #fff 20px, #fff 40px)
 }
 
@@ -16,9 +13,7 @@
 .Work-cards {
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
     margin: auto;
-    /* overflow: scroll; */
 }
 
 @media (max-width: 780px) {
