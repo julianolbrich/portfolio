@@ -1,26 +1,8 @@
 .Bio {
-    /* padding: 0px 80px; */
     margin-top: 40px;
 }
 
-/* JULIAN OLBRICH */
-/* .Bio h1 {
-    font-family: 'Neuton', serif;
-    font-size: 83px;
-    font-weight: 400;
-    text-align: center;
-    margin: 50px 0px 60px;
-    letter-spacing: 5px;
-    line-height: 90px;
-    display: inline-block;
-    transition: all .1s ease-in-out;
-}
-    .Bio h1:hover {
-        color: white;
-    } */
-
 .Bio-business {
-    /* background-color:  #24A6DC; */
     padding: 50px 120px 60px 130px;
 }
 
@@ -33,7 +15,6 @@
     padding: 0;
     line-height: 100px;
     color: #EFD60B;
-    /* background-color: #EFD60B; */
 }
     .Bio h2 a {
         color: white;
@@ -46,11 +27,10 @@
         }
 
 .Bio-tech {
-    /* background-color:  #fff; */
     padding: 200px 110px 25px 120px;
     background: linear-gradient( 180deg, #24A6DC, #EFD60B 130px, #EFD60B 20px, #EFD60B 40px)
-    /* background: linear-gradient( 90deg, #EF4C21, #24A6DC 55px, #fff 20px, #fff 40px) */
 }
+
 /* TEXT - FULLSTACK */
 .Bio h4 {
     font-family: 'Viaoda Libre', cursive;
@@ -59,7 +39,6 @@
     margin: 30px 20px;
     padding: 0;
     letter-spacing: 1.5px;
-    /* background-color: rgb(255, 225, 0); */
 }
     .Bio h4 a {
         text-decoration: none;
@@ -126,7 +105,6 @@
     margin-right: 34px;
 }
 .javascript-icon {
-    /* color: #EFD919; */
     color: black;
 }
 .react-icon {
@@ -139,22 +117,12 @@
     top: -4px;
 }
 
-/* .fullstack {
-    text-decoration: underline;
-    text-decoration-thickness: 3px;
-} */
-
-
 @media (max-width: 780px) {
     .Bio {
         padding: 0px;
         margin-top: 40px;
     }
-    /* .Bio h1 {
-        display: none;
-    } */
     .Bio-business {
-        /* background-color:  #EFD60B; */
         padding: 50px 80px 0px 90px;
     }
     .Bio h2 {
@@ -175,58 +143,30 @@
 
     .Bio-smileys {
         font-size: 32px;
-        /* max-width: 600px; */
         margin: 5px auto 35px;
         display: flex;
         justify-content: space-around;
     }
 
-    /* .fullstack {
-        text-decoration: underline;
-        text-decoration-thickness: 1px;
-    } */
-    
     .Bio-stack {
         font-size: 32px;
         display: flex;
         justify-content: space-around;
     }
-
-    /* .rails {
-        color: #C60402;
-    }
-    
-    .javascript {
-        color: #EFD919;
-    }
-    
-    .react {
-        color: #05D1F6;
-    } */
-    
     .Bio-stack-icon {
         margin: 0 10px;
     }
-
     .rails-icon {
         font-size: 53px;
         position: relative;
         top: -13px;
         margin-right: px;
     }
-    
     .node-icon {
         color: #71A761;
         font-size: 52px;
     }
-
-    /* .stack-icon-rails {
-        font-size: 64px;
-        position: relative;
-        top: -5px;
-    } */
-
-    #work{
+#work{
         padding-top: 30px;
     }
 
