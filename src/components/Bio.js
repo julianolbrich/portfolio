@@ -26,8 +26,8 @@ function Bio() {
                 </div>
             </div>
             <div className="Bio-tech"> 
-                <h4> In 2020 I evolved into becoming a <span className="fullstack">  <a href={url_lewagon} target="_blank" rel="noreferrer"> <em>Full-Stack </em> Software Developer </a> </span>  with 
-                    <em> <span className="rails">Ruby on Rails</span>, <span className="javascript">JavaScript</span> </em> & <em> <span className="react">React.</span> </em>
+                <h4> In 2020 I evolved into becoming a <span className="fullstack">  <a href={url_lewagon} target="_blank" rel="noreferrer"> <em>Full-Stack Software Developer </em></a> </span>  with 
+                    <span className="rails"> Ruby on Rails</span>, <span className="javascript">JavaScript</span> & <span className="react">React.</span> 
                 </h4>
                 <div className="Bio-stack">
                     <div className="Bio-stack-icon rails-icon"> <SiRails /> </div>
