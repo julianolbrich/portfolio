@@ -46,7 +46,7 @@
         }
 
 .Bio-tech {
-    background-color:  #fff;
+    /* background-color:  #fff; */
     padding: 200px 110px 25px 120px;
     background: linear-gradient( 180deg, #24A6DC, #EFD60B 130px, #EFD60B 20px, #EFD60B 40px)
     /* background: linear-gradient( 90deg, #EF4C21, #24A6DC 55px, #fff 20px, #fff 40px) */
@@ -148,7 +148,7 @@
 @media (max-width: 780px) {
     .Bio {
         padding: 0px;
-        margin-top: 55px;
+        margin-top: 40px;
     }
     /* .Bio h1 {
         display: none;
