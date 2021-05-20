@@ -1,9 +1,10 @@
 .Work {
-    padding: 0px 80px;
+    /* padding: 0px 80px 30px 80px; */
     overflow: scroll;
     font-family: 'Chicle', cursive;
     /* background: linear-gradient( 90deg, #EFD60B, #EFD60B 67px, #fff 20px, #fff 40px) */
     /* background: #24A6DC; */
+    background: linear-gradient( 180deg, #EFD60B, #EF4C21 1400px, #fff 20px, #fff 40px)
 }
 
 .Work h2 {
@@ -22,7 +23,7 @@
 
 @media (max-width: 780px) {
     .Work {
-        padding: 0px 0px 0px 20px;
+        padding: 0px 0px 30px 20px;
         margin-right: 0px;
     }
   }
