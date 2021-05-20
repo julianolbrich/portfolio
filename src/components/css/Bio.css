@@ -27,14 +27,14 @@
         }
 
 .Bio-tech {
-    padding: 200px 110px 25px 120px;
+    padding: 205px 110px 25px 120px;
     background: linear-gradient( 180deg, #24A6DC, #EFD60B 130px, #EFD60B 20px, #EFD60B 40px)
 }
 
 /* TEXT - FULLSTACK */
 .Bio h4 {
     font-family: 'Viaoda Libre', cursive;
-    font-size: 60px;
+    font-size: 62px;
     line-height: 86px;
     margin: 30px 20px;
     padding: 0;
@@ -123,7 +123,7 @@
         margin-top: 40px;
     }
     .Bio-business {
-        padding: 50px 80px 0px 90px;
+        padding: 40px 80px 5px 90px;
     }
     .Bio h2 {
         font-size: 34px;
@@ -131,10 +131,10 @@
         line-height: 46px;
     }
     .Bio-tech {
-        padding: 150px 60px 25px 80px;
+        padding: 145px 60px 25px 80px;
     }    
     .Bio h4 {
-        font-size: 29px;
+        font-size: 30px;
         
         line-height: 47px;
         margin: 17px 0px 0px;
@@ -160,7 +160,7 @@
         font-size: 53px;
         position: relative;
         top: -13px;
-        margin-right: px;
+        margin-right: 5px;
     }
     .node-icon {
         color: #71A761;
