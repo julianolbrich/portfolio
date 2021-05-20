@@ -20,7 +20,7 @@
     } */
 
 .Bio-business {
-    /* background-color:  #EFD60B; */
+    background-color:  #24A6DC;
     padding: 50px 120px 60px 130px;
 }
 
@@ -212,7 +212,7 @@
         font-size: 53px;
         position: relative;
         top: -13px;
-        margin-right: 6px;
+        margin-right: px;
     }
     
     .node-icon {
