@@ -4,7 +4,7 @@
     font-family: 'Chicle', cursive;
     /* background: linear-gradient( 90deg, #EFD60B, #EFD60B 67px, #fff 20px, #fff 40px) */
     /* background: #24A6DC; */
-    background: linear-gradient( 180deg, #EFD60B, #EF4C21 1400px, #fff 20px, #fff 40px)
+    background: linear-gradient( 180deg, #EFD60B, #EF4C21 100%, #fff 20px, #fff 40px)
 }
 
 .Work h2 {

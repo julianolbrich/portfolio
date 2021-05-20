@@ -29,7 +29,7 @@
     font-family: 'Chicle', cursive;
 }
     .Navbar-links a {
-        color: #5393fe;
+        color: black;
         font-size: 1.1rem;
         text-decoration: underline;
         transition: all .07s ease-in-out;
