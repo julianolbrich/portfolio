@@ -1,6 +1,12 @@
 body {
-  font-family: Space Mono,monospace;
-  text-align: center;
-  /* background-color: #EFD60B; */
   margin: 0;
+  text-align: center;
+}
+
+.App {
+  background-color: #24A6DC;
+}
+
+a {
+  text-decoration: none;
 }
